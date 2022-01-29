@@ -24,20 +24,19 @@ void welcome()
                   printf("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
                   Sleep(250);
                   locate(27,23);
-                  printf(" @Copy righted to:-");
+                  printf(" ");
                   Sleep(250);
-                  locate(27,25);
+                 
                   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_BLUE );
                   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_BLUE );
-                  locate(27,29);
-                  printf("\tcodewitc.c",16);
+             
 
                   for(y=35;y<=58;y++)
                   {
                     {
 
                       locate(27,y);
-                      Sleep(400);
+                      Sleep(250);
                     }
                   }
                   printf("\n");
